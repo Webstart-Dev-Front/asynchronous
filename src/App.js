@@ -1,5 +1,9 @@
 import logo from './logo.svg';
+import aws_conf from './aws-exports.js'
 import './App.css';
+import Amplify from 'aws-amplify';
+
+Amplify.configure(aws_conf)
 
 function App() {
   return (
