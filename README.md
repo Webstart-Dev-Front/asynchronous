@@ -22,7 +22,7 @@ Créer une formulaire pour créer un élément d'une TODO-LIST avec 2 champs:
 
 et un bouton de validation.
 
-note: Utiliser les composant fournis par MaterialUI: TextField et Button
+note: Utiliser les composant fournis par MaterialUI: Paper, TextField et Button
 
 A la validation, on rajoute notre objet todo à un tableau dans le state de la page/composant.
 
