@@ -10,9 +10,6 @@ export const createTodo = /* GraphQL */ `
       id
       title
       description
-      _version
-      _deleted
-      _lastChangedAt
       createdAt
       updatedAt
     }
@@ -27,9 +24,6 @@ export const updateTodo = /* GraphQL */ `
       id
       title
       description
-      _version
-      _deleted
-      _lastChangedAt
       createdAt
       updatedAt
     }
@@ -44,9 +38,6 @@ export const deleteTodo = /* GraphQL */ `
       id
       title
       description
-      _version
-      _deleted
-      _lastChangedAt
       createdAt
       updatedAt
     }
