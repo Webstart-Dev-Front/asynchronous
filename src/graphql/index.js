@@ -9,4 +9,4 @@ export const getAllTodos = async () => {
 
 export const addTodo = async (input) => API.graphql(graphqlOperation(createTodo, { input }))
 
-export const removeTodo = async (id) => API.graphql(graphqlOperation(deleteTodo, { id }))
+export const removeTodo = async (id) => API.graphql(graphqlOperation(deleteTodo, { input: { id } }))
